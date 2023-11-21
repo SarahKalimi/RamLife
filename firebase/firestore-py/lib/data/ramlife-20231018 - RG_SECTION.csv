@@ -1,0 +1,389 @@
+SCHOOL_ID,SECTION_ID,FACULTY_ID,FACULTY_FULL_NAME,TERM1,TERM2,Grading Periods
+Upper,090070-10,118960,"Witkes, Ari",,,ALL
+Upper,090070-20,118960,"Witkes, Ari",,,ALL
+Upper,090070-30,118960,"Witkes, Ari",,,ALL
+Upper,090070-40,118960,"Witkes, Ari",,,ALL
+Upper,090070-50,118960,"Witkes, Ari",,,ALL
+Upper,090070-60,118960,"Witkes, Ari",,,ALL
+Upper,090080-10,118239,"Csillag-Cohen, Miriam",,,ALL
+Upper,090080-20,118239,"Csillag-Cohen, Miriam",,,ALL
+Upper,090080-30,118239,"Csillag-Cohen, Miriam",,,ALL
+Upper,090080-40,118239,"Csillag-Cohen, Miriam",,,ALL
+Upper,090080-50,118239,"Csillag-Cohen, Miriam",,,ALL
+Upper,090080-60,118239,"Csillag-Cohen, Miriam",,,ALL
+Upper,090170-10,120493,"Greengold, Laura",,,US S1
+Upper,090170-15,120493,"Greengold, Laura",,,US S2
+Upper,090170-20,120493,"Greengold, Laura",,,US S1
+Upper,090170-25,120493,"Greengold, Laura",,,US S2
+Upper,090170-30,120493,"Greengold, Laura",,,US S1
+Upper,090170-35,120493,"Greengold, Laura",,,US S2
+Upper,090170-40,120493,"Greengold, Laura",,,US S1
+Upper,090170-45,120493,"Greengold, Laura",,,US S2
+Upper,090270-10,117548,"Elisha, Ehran",,,US S1
+Upper,090270-15,117548,"Elisha, Ehran",,,US S2
+Upper,090270-20,117548,"Elisha, Ehran",,,US S1
+Upper,090270-25,117548,"Elisha, Ehran",,,US S2
+Upper,090270-30,117548,"Elisha, Ehran",,,US S1
+Upper,090270-35,117548,"Elisha, Ehran",,,US S2
+Upper,090270-40,117548,"Elisha, Ehran",,,US S1
+Upper,090270-45,117548,"Elisha, Ehran",,,US S2
+Upper,090370-10,118058,"Krupka, Miriam",,,ALL
+Upper,090370-20,118058,"Krupka, Miriam",,,ALL
+Upper,090370-30,118058,"Krupka, Miriam",,,ALL
+Upper,090370-40,118058,"Krupka, Miriam",,,ALL
+Upper,090370-50,118058,"Krupka, Miriam",,,ALL
+Upper,090370-60,118058,"Krupka, Miriam",,,ALL
+Upper,090370-70,118058,"Krupka, Miriam",,,ALL
+Upper,090701-10,118896,"Webb, Cynthia",,,ALL
+Upper,090701-20,118896,"Webb, Cynthia",,,ALL
+Upper,090701-30,118896,"Webb, Cynthia",,,ALL
+Upper,090701-40,118896,"Webb, Cynthia",,,ALL
+Upper,090702-10,118896,"Webb, Cynthia",,,ALL
+Upper,090702-20,118896,"Webb, Cynthia",,,ALL
+Upper,090702-30,118896,"Webb, Cynthia",,,ALL
+Upper,090702-40,118896,"Webb, Cynthia",,,ALL
+Upper,091000-10,119466,"Milowitz, Steven",,,ALL
+Upper,091000-20,118149,"Litwack, Susan",,,ALL
+Upper,091000-30,119466,"Milowitz, Steven",,,ALL
+Upper,091000-40,118149,"Litwack, Susan",,,ALL
+Upper,091004-35,120489,"Lekht, Naya",,,ALL
+Upper,091004-45,120489,"Lekht, Naya",,,ALL
+Upper,092000-10,106066,"Newman, Amanda",,,ALL
+Upper,092000-15,116262,"Deutsch, David",,,ALL
+Upper,092000-20,119477,"Wapner, Sarah",,,ALL
+Upper,092000-30,119477,"Wapner, Sarah",,,ALL
+Upper,092000-35,116262,"Deutsch, David",,,ALL
+Upper,092000-40,106066,"Newman, Amanda",,,ALL
+Upper,093032-20,118229,"Maussion, Claire",,,ALL
+Upper,093034-30,118229,"Maussion, Claire",,,ALL
+Upper,093041-20,118522,"Roldan, Astrid",,,ALL
+Upper,093042-20,118182,"Gomez Mayorga, Maria",,,ALL
+Upper,093044-10,118182,"Gomez Mayorga, Maria",,,ALL
+Upper,093044-15,119487,"Fernandes, Carlos",,,ALL
+Upper,093044-30,119487,"Fernandes, Carlos",,,ALL
+Upper,093044-40,119487,"Fernandes, Carlos",,,ALL
+Upper,094010-10,118884,"Vulakh, Marianna",,,ALL
+Upper,094011-10,118350,"Nironi, Fabio",,,ALL
+Upper,094011-20,118350,"Nironi, Fabio",,,ALL
+Upper,094012-10,117986,"Kavian, Miriam",,,ALL
+Upper,094012-20,117986,"Kavian, Miriam",,,ALL
+Upper,094013-10,118384,"Ovshey, Natan",,,ALL
+Upper,094014-20,118884,"Vulakh, Marianna",,,ALL
+Upper,095001-20,117861,"Herman, Tali",,,ALL
+Upper,095001-40,117861,"Herman, Tali",,,ALL
+Upper,095002-10,117720,"Goldberg, Chayim",,,ALL
+Upper,095002-20,117720,"Goldberg, Chayim",,,ALL
+Upper,095003-10,117861,"Herman, Tali",,,ALL
+Upper,095011-30,117720,"Goldberg, Chayim",,,ALL
+Upper,095011-40,117720,"Goldberg, Chayim",,,ALL
+Upper,095400-10,119478,"Ginsburg, Daniel",,,ALL
+Upper,095400-20,119478,"Ginsburg, Daniel",,,ALL
+Upper,095400-30,119478,"Ginsburg, Daniel",,,ALL
+Upper,095400-40,118384,"Ovshey, Natan",,,ALL
+Upper,095400-50,118554,"Rotenberg, Ethan",,,ALL
+Upper,095400-60,119478,"Ginsburg, Daniel",,,ALL
+Upper,095400-70,118554,"Rotenberg, Ethan",,,ALL
+Upper,095400-80,118384,"Ovshey, Natan",,,ALL
+Upper,096001-10,118058,"Krupka, Miriam",,,ALL
+Upper,096002-10,120497,"Yaday, Hadar",,,ALL
+Upper,096002-20,118498,"Ritholtz, Daniel",,,ALL
+Upper,096411-10,120497,"Yaday, Hadar",,,ALL
+Upper,096413-10,118636,"Schwartz, Zachary",,,ALL
+Upper,096413-20,118058,"Krupka, Miriam",,,ALL
+Upper,096414-10,118823,"Tenenbein, Rebecca",,,ALL
+Upper,097001-10,117678,"Gedwiser, Miriam",,,ALL
+Upper,097002-10,117635,"Fried, David",,,ALL
+Upper,097002-20,117821,"Hakimian, Cody",,,ALL
+Upper,097013-10,118983,"Segal, Yehoshua",,,ALL
+Upper,097013-20,118916,"Weiser, Joseph",,,ALL
+Upper,097013-30,117635,"Fried, David",,,ALL
+Upper,097014-10,119476,"Broth, Yehonatan",,,ALL
+Upper,098013-10,120497,"Yaday, Hadar",,,ALL
+Upper,098013-20,119000,"Zeitchik, Gerald",,,ALL
+Upper,098013-30,119477,"Wapner, Sarah",,,ALL
+Upper,098013-40,119000,"Zeitchik, Gerald",,,ALL
+Upper,098013-50,119476,"Broth, Yehonatan",,,ALL
+Upper,098013-60,118820,"Teichman, Jeremy",,,ALL
+Upper,099001-10,117317,"Bilia, Yris",,,ALL
+Upper,099002-10,120490,"Ohayon, Roni",,,ALL
+Upper,099003-10,119002,"Sole-Zier, Anila",,,ALL
+Upper,099004-10,120490,"Ohayon, Roni",,,ALL
+Upper,099005-10,117317,"Bilia, Yris",,,ALL
+Upper,099006-10,117144,"Adelman, Eliahu",,,ALL
+Upper,100070-10,118960,"Witkes, Ari",,,ALL
+Upper,100070-20,118960,"Witkes, Ari",,,ALL
+Upper,100070-30,118960,"Witkes, Ari",,,ALL
+Upper,100070-40,118960,"Witkes, Ari",,,ALL
+Upper,100070-50,118960,"Witkes, Ari",,,ALL
+Upper,100070-60,118960,"Witkes, Ari",,,ALL
+Upper,100080-10,118239,"Csillag-Cohen, Miriam",,,ALL
+Upper,100080-20,118239,"Csillag-Cohen, Miriam",,,ALL
+Upper,100080-30,118239,"Csillag-Cohen, Miriam",,,ALL
+Upper,100080-40,118239,"Csillag-Cohen, Miriam",,,ALL
+Upper,100080-50,118239,"Csillag-Cohen, Miriam",,,ALL
+Upper,100080-60,118239,"Csillag-Cohen, Miriam",,,ALL
+Upper,100170-10,117139,"Abramson, Barbara",,,US S1
+Upper,100170-15,117139,"Abramson, Barbara",,,US S2
+Upper,100170-20,120493,"Greengold, Laura",,,US S1
+Upper,100170-25,120493,"Greengold, Laura",,,US S2
+Upper,100170-30,120493,"Greengold, Laura",,,US S1
+Upper,100170-35,120493,"Greengold, Laura",,,US S2
+Upper,100170-40,117139,"Abramson, Barbara",,,US S1
+Upper,100170-45,117139,"Abramson, Barbara",,,US S2
+Upper,100270-10,117548,"Elisha, Ehran",,,US S1
+Upper,100270-15,117548,"Elisha, Ehran",,,US S2
+Upper,100270-20,117548,"Elisha, Ehran",,,US S1
+Upper,100270-25,117548,"Elisha, Ehran",,,US S2
+Upper,100270-30,117548,"Elisha, Ehran",,,US S1
+Upper,100270-35,117548,"Elisha, Ehran",,,US S2
+Upper,100270-40,117548,"Elisha, Ehran",,,US S1
+Upper,100270-45,117548,"Elisha, Ehran",,,US S2
+Upper,100370-10,117516,"Dreisinger, Rebecca",,,ALL
+Upper,100370-20,117516,"Dreisinger, Rebecca",,,ALL
+Upper,100370-30,117516,"Dreisinger, Rebecca",,,ALL
+Upper,100370-40,117516,"Dreisinger, Rebecca",,,ALL
+Upper,100370-50,117516,"Dreisinger, Rebecca",,,ALL
+Upper,100370-60,117516,"Dreisinger, Rebecca",,,ALL
+Upper,100701-10,118896,"Webb, Cynthia",,,ALL
+Upper,100701-20,118896,"Webb, Cynthia",,,ALL
+Upper,100701-30,118896,"Webb, Cynthia",,,ALL
+Upper,100701-40,118896,"Webb, Cynthia",,,ALL
+Upper,100702-10,118896,"Webb, Cynthia",,,ALL
+Upper,100702-20,118896,"Webb, Cynthia",,,ALL
+Upper,101000-10,120489,"Lekht, Naya",,,ALL
+Upper,101000-30,120496,"Cervantes, Gabriel",,,ALL
+Upper,101000-40,120496,"Cervantes, Gabriel",,,ALL
+Upper,101001-30,120489,"Lekht, Naya",,,ALL
+Upper,101004-20,119466,"Milowitz, Steven",,,ALL
+Upper,101004-40,119466,"Milowitz, Steven",,,ALL
+Upper,102000-10,117870,"Herzog, Donna",,,ALL
+Upper,102000-20,106066,"Newman, Amanda",,,ALL
+Upper,102000-25,116262,"Deutsch, David",,,ALL
+Upper,102000-30,106066,"Newman, Amanda",,,ALL
+Upper,102000-35,117870,"Herzog, Donna",,,ALL
+Upper,102000-40,106066,"Newman, Amanda",,,ALL
+Upper,103033-40,118229,"Maussion, Claire",,,ALL
+Upper,103034-20,118229,"Maussion, Claire",,,ALL
+Upper,103041-10,118182,"Gomez Mayorga, Maria",,,ALL
+Upper,103043-20,118522,"Roldan, Astrid",,,ALL
+Upper,103044-30,118182,"Gomez Mayorga, Maria",,,ALL
+Upper,103044-40,118182,"Gomez Mayorga, Maria",,,ALL
+Upper,104009-10,118384,"Ovshey, Natan",,,ALL
+Upper,104010-20,118777,"Stern, Ely",,,ALL
+Upper,104011-10,118884,"Vulakh, Marianna",,,ALL
+Upper,104011-20,118884,"Vulakh, Marianna",,,ALL
+Upper,104012-10,108706,"Shine, Bonnie",,,ALL
+Upper,104012-20,108706,"Shine, Bonnie",,,ALL
+Upper,104013-10,119478,"Ginsburg, Daniel",,,ALL
+Upper,104013-20,117986,"Kavian, Miriam",,,ALL
+Upper,104018-10,117986,"Kavian, Miriam",,,ALL
+Upper,105001-10,118554,"Rotenberg, Ethan",,,ALL
+Upper,105001-20,118554,"Rotenberg, Ethan",,,ALL
+Upper,105002-30,117323,"Blaustein, Josh",,,ALL
+Upper,105002-40,117323,"Blaustein, Josh",,,ALL
+Upper,105003-40,117720,"Goldberg, Chayim",,,ALL
+Upper,105011-10,117323,"Blaustein, Josh",,,ALL
+Upper,105011-20,117323,"Blaustein, Josh",,,ALL
+Upper,105400-10,118350,"Nironi, Fabio",,,ALL
+Upper,105400-20,118350,"Nironi, Fabio",,,ALL
+Upper,105400-30,118350,"Nironi, Fabio",,,ALL
+Upper,105404-10,117193,"Aronson, David",,,ALL
+Upper,105404-20,117193,"Aronson, David",,,ALL
+Upper,105404-30,117193,"Aronson, David",,,ALL
+Upper,105404-40,117193,"Aronson, David",,,ALL
+Upper,106001-10,117274,"Benus, Tamar",,,ALL
+Upper,106002-10,117992,"Kelman, Atara",,,ALL
+Upper,106002-20,118452,"Rahimzada, Gabby",,,ALL
+Upper,106411-10,117274,"Benus, Tamar",,,ALL
+Upper,106413-10,120497,"Yaday, Hadar",,,ALL
+Upper,106413-20,117992,"Kelman, Atara",,,ALL
+Upper,107000-10,118820,"Teichman, Jeremy",,,ALL
+Upper,107001-10,118636,"Schwartz, Zachary",,,ALL
+Upper,107002-10,119476,"Broth, Yehonatan",,,ALL
+Upper,107002-20,117821,"Hakimian, Cody",,,ALL
+Upper,107013-10,118916,"Weiser, Joseph",,,ALL
+Upper,107013-20,117821,"Hakimian, Cody",,,ALL
+Upper,107013-30,119476,"Broth, Yehonatan",,,ALL
+Upper,108013-10,117992,"Kelman, Atara",,,ALL
+Upper,108013-20,117843,"Hass, Immanuel",,,ALL
+Upper,108013-30,118636,"Schwartz, Zachary",,,ALL
+Upper,108013-40,118950,"Wilner, Ilana",,,ALL
+Upper,108013-50,117635,"Fried, David",,,ALL
+Upper,108013-60,118636,"Schwartz, Zachary",,,ALL
+Upper,109001-10,120490,"Ohayon, Roni",,,ALL
+Upper,109002-10,117317,"Bilia, Yris",,,ALL
+Upper,109002-20,117144,"Adelman, Eliahu",,,ALL
+Upper,109003-40,117144,"Adelman, Eliahu",,,ALL
+Upper,109003-50,119002,"Sole-Zier, Anila",,,ALL
+Upper,109014-60,120490,"Ohayon, Roni",,,ALL
+Upper,110070-10,118960,"Witkes, Ari",,,US S1
+Upper,110070-20,118960,"Witkes, Ari",,,US S1
+Upper,110070-30,118960,"Witkes, Ari",,,US S2
+Upper,110070-40,118960,"Witkes, Ari",,,US S2
+Upper,110080-10,118239,"Csillag-Cohen, Miriam",,,US S1
+Upper,110080-20,118239,"Csillag-Cohen, Miriam",,,US S1
+Upper,110080-30,118239,"Csillag-Cohen, Miriam",,,US S2
+Upper,110080-40,118239,"Csillag-Cohen, Miriam",,,US S2
+Upper,110101-10,117139,"Abramson, Barbara",,,ALL
+Upper,110170-10,117139,"Abramson, Barbara",,,ALL
+Upper,110170-20,117139,"Abramson, Barbara",,,ALL
+Upper,110170-30,117139,"Abramson, Barbara",,,ALL
+Upper,110170-40,117139,"Abramson, Barbara",,,ALL
+Upper,110270-10,101442,"Henkin, Daniel",,,ALL
+Upper,110270-20,101442,"Henkin, Daniel",,,ALL
+Upper,110270-30,101442,"Henkin, Daniel",,,ALL
+Upper,110270-40,101442,"Henkin, Daniel",,,ALL
+Upper,110370-10,117516,"Dreisinger, Rebecca",,,US S1
+Upper,110370-20,117516,"Dreisinger, Rebecca",,,US S1
+Upper,110370-30,117516,"Dreisinger, Rebecca",,,US S2
+Upper,110370-40,117516,"Dreisinger, Rebecca",,,US S2
+Upper,110701-10,118896,"Webb, Cynthia",,,ALL
+Upper,110701-30,118896,"Webb, Cynthia",,,ALL
+Upper,110701-40,118896,"Webb, Cynthia",,,ALL
+Upper,110806-10,119466,"Milowitz, Steven",,,ALL
+Upper,110810-10,117633,"Frank, Yael",,,ALL
+Upper,111000-15,117894,"Honig, Edith",,,ALL
+Upper,111000-20,120496,"Cervantes, Gabriel",,,ALL
+Upper,111000-30,120496,"Cervantes, Gabriel",,,ALL
+Upper,111000-40,119466,"Milowitz, Steven",,,ALL
+Upper,111001-20,117894,"Honig, Edith",,,ALL
+Upper,112010-10,117870,"Herzog, Donna",,,ALL
+Upper,112010-15,119480,"Lerer, David",,,ALL
+Upper,112010-20,117870,"Herzog, Donna",,,ALL
+Upper,112010-25,119480,"Lerer, David",,,ALL
+Upper,112010-30,117870,"Herzog, Donna",,,ALL
+Upper,112010-35,119480,"Lerer, David",,,ALL
+Upper,112500-40,119480,"Lerer, David",,,ALL
+Upper,112540-40,116262,"Deutsch, David",,,ALL
+Upper,112591-40,118162,"Lowry, Linda",,,ALL
+Upper,113021-10,118522,"Roldan, Astrid",,,ALL
+Upper,113024-40,102061,"Schor, Gideon",,,ALL
+Upper,113032-10,118229,"Maussion, Claire",,,ALL
+Upper,113034-40,118229,"Maussion, Claire",,,ALL
+Upper,113043-40,118522,"Roldan, Astrid",,,ALL
+Upper,113044-20,118182,"Gomez Mayorga, Maria",,,ALL
+Upper,114010-10,118384,"Ovshey, Natan",,,ALL
+Upper,114010-20,118384,"Ovshey, Natan",,,ALL
+Upper,114012-10,118777,"Stern, Ely",,,ALL
+Upper,114012-20,108706,"Shine, Bonnie",,,ALL
+Upper,114014-10,108706,"Shine, Bonnie",,,ALL
+Upper,114020-20,118350,"Nironi, Fabio",,,ALL
+Upper,114021-10,118884,"Vulakh, Marianna",,,ALL
+Upper,115001-20,118018,"Klotz, Jay",,,ALL
+Upper,115001-30,118018,"Klotz, Jay",,,ALL
+Upper,115002-10,118421,"Pirouet, Mark",,,ALL
+Upper,115002-40,118018,"Klotz, Jay",,,ALL
+Upper,115003-30,117323,"Blaustein, Josh",,,ALL
+Upper,115004-10,118018,"Klotz, Jay",,,ALL
+Upper,115405-10,117193,"Aronson, David",,,ALL
+Upper,115405-20,117193,"Aronson, David",,,ALL
+Upper,115405-25,117193,"Aronson, David",,,ALL
+Upper,115406-10,119478,"Ginsburg, Daniel",,,ALL
+Upper,115406-20,119478,"Ginsburg, Daniel",,,ALL
+Upper,115615-10,117296,"Bernfeld, Eva",,,ALL
+Upper,116001-10,118950,"Wilner, Ilana",,,ALL
+Upper,116002-10,118498,"Ritholtz, Daniel",,,ALL
+Upper,116002-20,118452,"Rahimzada, Gabby",,,ALL
+Upper,116416-10,118498,"Ritholtz, Daniel",,,ALL
+Upper,116417-10,118950,"Wilner, Ilana",,,ALL
+Upper,117000-10,118610,"Schiowitz, Kenneth",,,ALL
+Upper,117001-10,117678,"Gedwiser, Miriam",,,ALL
+Upper,117012-10,117821,"Hakimian, Cody",,,ALL
+Upper,117012-20,118820,"Teichman, Jeremy",,,ALL
+Upper,117023-10,118636,"Schwartz, Zachary",,,ALL
+Upper,117023-20,117678,"Gedwiser, Miriam",,,ALL
+Upper,118013-10,119477,"Wapner, Sarah",,,ALL
+Upper,118013-20,117635,"Fried, David",,,ALL
+Upper,118013-30,120497,"Yaday, Hadar",,,ALL
+Upper,118013-40,117635,"Fried, David",,,ALL
+Upper,118013-50,118916,"Weiser, Joseph",,,ALL
+Upper,118020-10,118452,"Rahimzada, Gabby",,,ALL
+Upper,119001-10,119002,"Sole-Zier, Anila",,,ALL
+Upper,119001-20,117144,"Adelman, Eliahu",,,ALL
+Upper,119002-10,120490,"Ohayon, Roni",,,ALL
+Upper,119003-40,120490,"Ohayon, Roni",,,ALL
+Upper,119003-50,117144,"Adelman, Eliahu",,,ALL
+Upper,119014-10,117317,"Bilia, Yris",,,ALL
+Upper,120101-10,117139,"Abramson, Barbara",,,ALL
+Upper,120211-10,101442,"Henkin, Daniel",,,ALL
+Upper,120223-10,117548,"Elisha, Ehran",,,US S1
+Upper,120422-10,117193,"Aronson, David",,,ALL
+Upper,121003-10,118149,"Litwack, Susan",,,ALL
+Upper,121018-10,119466,"Milowitz, Steven",,,US S1
+Upper,121032-10,117894,"Honig, Edith",,,US S1
+Upper,121053-10,118149,"Litwack, Susan",,,US S1
+Upper,121082-10,120496,"Cervantes, Gabriel",,,US S1
+Upper,121083-10,120489,"Lekht, Naya",,,US S1
+Upper,122010-10,118162,"Lowry, Linda",,,ALL
+Upper,122014-10,117870,"Herzog, Donna",,,ALL
+Upper,122029-10,120493,"Greengold, Laura",,,ALL
+Upper,122042-10,116262,"Deutsch, David",,,ALL
+Upper,122045-10,116262,"Deutsch, David",,,US S1
+Upper,122046-10,106066,"Newman, Amanda",,,US S1
+Upper,122050-10,117139,"Abramson, Barbara",,,ALL
+Upper,122053-10,119480,"Lerer, David",,,US S1
+Upper,122054-10,116262,"Deutsch, David",,,US S1
+Upper,123001-10,118229,"Maussion, Claire",,,ALL
+Upper,123002-10,118522,"Roldan, Astrid",,,ALL
+Upper,123100-10,118522,"Roldan, Astrid",,,US S1
+Upper,123200-10,118229,"Maussion, Claire",,,"ALL, US S1"
+Upper,124001-10,108706,"Shine, Bonnie",,,ALL
+Upper,124002-10,118777,"Stern, Ely",,,ALL
+Upper,124002-20,118350,"Nironi, Fabio",,,ALL
+Upper,124013-10,118162,"Lowry, Linda",,,ALL
+Upper,124015-10,118018,"Klotz, Jay",,,ALL
+Upper,124019-10,118884,"Vulakh, Marianna",,,ALL
+Upper,124020-10,117986,"Kavian, Miriam",,,US S1
+Upper,124026-10,118162,"Lowry, Linda",,,US S1
+Upper,125001-10,118018,"Klotz, Jay",,,ALL
+Upper,125002-10,101979,"Brachot, Lenore",,,ALL
+Upper,125003-10,117861,"Herman, Tali",,,ALL
+Upper,125006-10,118421,"Pirouet, Mark",,,ALL
+Upper,125012-10,118421,"Pirouet, Mark",,,ALL
+Upper,125014-10,118554,"Rotenberg, Ethan",,,ALL
+Upper,125022-10,117861,"Herman, Tali",,,ALL
+Upper,125023-10,118018,"Klotz, Jay",,,US S1
+Upper,125086-10,117720,"Goldberg, Chayim",,,US S1
+Upper,126011-10,118498,"Ritholtz, Daniel",,,ALL
+Upper,126011-15,119476,"Broth, Yehonatan",,,ALL
+Upper,126040-10,118416,"Pianko, Dov",,,US S1
+Upper,126524-10,118452,"Rahimzada, Gabby",,,US S1
+Upper,126569-10,117274,"Benus, Tamar",,,US S1
+Upper,126963-10,117678,"Gedwiser, Miriam",,,US S1
+Upper,127001-10,118820,"Teichman, Jeremy",,,ALL
+Upper,127011-10,118820,"Teichman, Jeremy",,,ALL
+Upper,127020-10,118636,"Schwartz, Zachary",,,US S1
+Upper,128025-10,118916,"Weiser, Joseph",,,US S1
+Upper,128029-10,117931,"Lookstein, Joshua",,,ALL
+Upper,128032-10,118950,"Wilner, Ilana",,,US S1
+Upper,128036-10,117821,"Hakimian, Cody",,,US S1
+Upper,128037-10,103260,"Feldman, Roy",,,ALL
+Upper,128052-10,118916,"Weiser, Joseph",,,US S1
+Upper,128056-10,118950,"Wilner, Ilana",,,US S1
+Upper,128623-10,117325,"Block, Nancy",,,US S1
+Upper,129024-10,117144,"Adelman, Eliahu",,,ALL
+Upper,129033-10,119002,"Sole-Zier, Anila",,,US S1
+Upper,810000-10,118416,"Pianko, Dov",,,ALL
+Upper,810000-20,118416,"Pianko, Dov",,,ALL
+Upper,811000-10,117325,"Block, Nancy",,,ALL
+Upper,812000-10,117274,"Benus, Tamar",,,ALL
+Upper,812000-20,117274,"Benus, Tamar",,,ALL
+Upper,812000-30,117274,"Benus, Tamar",,,ALL
+Upper,890000-10,118416,"Pianko, Dov",,,ALL
+Upper,890000-20,118416,"Pianko, Dov",,,ALL
+Upper,890000-30,118416,"Pianko, Dov",,,ALL
+Upper,900000-10,118610,"Schiowitz, Kenneth",,,ALL
+Upper,909000-10,117296,"Bernfeld, Eva",,,ALL
+Upper,910110-10,118983,"Segal, Yehoshua",,,ALL
+Upper,911000-10,117325,"Block, Nancy",,,ALL
+Upper,912000-10,117274,"Benus, Tamar",,,ALL
+Upper,CADV12-1,118262,"Messinger, Dana",,,US S1
+Upper,CADV12-2,117331,"Blumenthal, Rafael",,,US S1
+Upper,CADV12-3,117475,"Davis, Abby",,,US S1
+Upper,CADV12-4,117894,"Honig, Edith",,,US S1
+Upper,CHEMQUIZ-10,117323,"Blaustein, Josh",,,ALL
+Upper,CHEMQUIZ-20,118554,"Rotenberg, Ethan",,,ALL
+Upper,CHEMQUIZ-30,117720,"Goldberg, Chayim",,,ALL
+Upper,CHEMQUIZ-40,117323,"Blaustein, Josh",,,ALL
+Upper,CHEMQUIZ-50,118554,"Rotenberg, Ethan",,,ALL
+Upper,CHEMQUIZ-60,117720,"Goldberg, Chayim",,,ALL

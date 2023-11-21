@@ -1,0 +1,203 @@
+SCHOOL_ID,ID,FULL_NAME
+Upper,UADV09,Advisory - 9th Grade
+Upper,UADV10,Advisory - 10th Grade
+Upper,CADV12,College Advisory 12
+Upper,090170,Foundations in Art 9
+Upper,120101,Honors Studio Art 12
+Upper,100170,Art: Abstraction 10
+Upper,110101,Hon Junior Seminar: Studio Art 11
+Upper,110170,Drawing and Painting 11
+Upper,110810,Theater Arts 11
+Upper,111001,English Seminar 11
+Upper,110806,Creative Writing 11
+Upper,121018,Jewish American Novel 12
+Upper,121032,Shakespeare 12
+Upper,121053,Escape From Self 12
+Upper,111000,English 11
+Upper,101000,English 10
+Upper,101001,English Seminar 10
+Upper,101004,English Fundamentals 10
+Upper,091000,English 9
+Upper,091004,English Fundamentals 9
+Upper,121003,Honors Sem: Crossing Borders 12
+Upper,121082,Literary London
+Upper,121083,Russian Literature
+Upper,090370,Health Education 9
+Upper,100370,Health Education 10
+Upper,110370,Health Education 11
+Upper,122010,AP Microeconomics 12
+Upper,122014,Hon Sem: Zionism in Text & Practice 12
+Upper,122029,Honors Seminar: Art History 12
+Upper,122042,AP US Government 12
+Upper,122045,The Modern Middle East 12
+Upper,122046,Civilization! 12
+Upper,122050,Film Production Seminar 12
+Upper,112010,Contemporary History 11
+Upper,112540,Hon Junior Sem: US Governmen
+Upper,102000,Modern History 10
+Upper,092000,Premodern History 9
+Upper,129024,Honors Sem: Israeli Culture (Hebrew) 12
+Upper,122053,History of Capitalism
+Upper,122054,World War II
+Upper,112500,Philosophy
+Upper,112591,AP Microeconomics
+Upper,100702,LC Support 10
+Upper,090702,LC Support 9
+Upper,090701,LC9
+Upper,100701,LC 10
+Upper,110701,LC 11
+Upper,114012,Accelerated Pre-Calculus 11
+Upper,114010,Honors Pre-Calculus 11
+Upper,114014,AP Calculus BC Seminar 11
+Upper,104009,Honors Calculus BC 10
+Upper,104010,Honors Pre-Calculus Seminar 10
+Upper,104011,Honors Algebra II & Trig. 10
+Upper,104012,Accelerated Algebra & Trig 10
+Upper,104013,Algebra II 10
+Upper,094010,Honors Algebra II & Trig. 9
+Upper,094011,Honors Geometry 9
+Upper,094012,Accelerated Geometry 9
+Upper,094013,Geometry 9
+Upper,094014,General Geometry 9
+Upper,124001,AP Calculus BC 12
+Upper,124002,AP Calculus AB 12
+Upper,124013,AP Statistics 12
+Upper,124015,Multivariable Calc & Diff Equations 12
+Upper,124019,Accelerated Calculus 12
+Upper,124020,Calculus 12
+Upper,124026,Applicable Math 12
+Upper,104018,Algebra I 10
+Upper,114020,Trigonometry & Pre-Calculus 11
+Upper,114021,Algebra II & Trigonometry 11
+Upper,120211,AP Music Theory
+Upper,120223,Rock and Roll Music History 12
+Upper,090270,Music History 9
+Upper,100270,Music History 10
+Upper,110270,Music Literature 11
+Upper,110070,Physical Education 11
+Upper,110080,Physical Education 11
+Upper,100070,Physical Education 10
+Upper,100080,Physical Education 10
+Upper,090070,Physical Education 9
+Upper,090080,Physical Education 9
+Upper,095001,Honors Biology 9
+Upper,095003,General Biology 9
+Upper,095002,Biology 9
+Upper,125001,AP Physics 12
+Upper,125002,AP Chemistry 12
+Upper,125003,AP Biology 12
+Upper,125012,AP Physics
+Upper,125014,AP Environmental Science
+Upper,125022,Advanced Biology 12
+Upper,125023,Astronomy 12
+Upper,105001,Honors Chemistry 10
+Upper,105003,General Chemistry 10
+Upper,105002,Chemistry 10
+Upper,115001,Honors Physics 11
+Upper,115002,Accelerated Physics 11
+Upper,115003,Physics 11
+Upper,115004,General Physics 11
+Upper,115615,Honors Junior Seminar: Psychology
+Upper,125006,College Classical & Quantum Physics
+Upper,095011,Accelerated Biology 9
+Upper,105011,Accelerated Chemistry 10
+Upper,CHEMQUIZ,Chemistry Quiz
+Upper,125086,"Kashrut: Blood, Guts, and Judaism"
+Upper,115405,TEC: Graphic Design
+Upper,115406,TEC: Python
+Upper,105400,"TEC: Technology, Engineering & Coding 10"
+Upper,105404,TEC: Web Design 10
+Upper,120422,AP Computer Science 12
+Upper,095400,"TEC: Technology, Engineering & Coding 9"
+Upper,093032,Second Year French 9
+Upper,093034,First Year French 9
+Upper,093041,Advanced 2nd Year Spanish 9
+Upper,093042,Second Year Spanish 9
+Upper,093044,First Year Spanish 9
+Upper,103033,Advanced 2nd Year French 10
+Upper,103034,Second Year French 10
+Upper,103041,Advanced 3rd Year Spanish 10
+Upper,103043,Advanced 2nd Year Spanish 10
+Upper,103044,Second Year Spanish 10
+Upper,113032,Fourth Year French 11
+Upper,113034,Third Year French 11
+Upper,113043,Advanced 3rd Year Spanish 11
+Upper,113044,Third Year Spanish 11
+Upper,123001,AP French 12
+Upper,123002,AP Spanish 12
+Upper,113024,Honors Second Year Greek
+Upper,113021,Honors Junior Seminar: Spanish
+Upper,123100,Spanish Language and Culture
+Upper,123200,French Language and Culture
+Upper,099004,Hebrew 9
+Upper,099005,Hebrew 9
+Upper,099006,Conversational Hebrew 9
+Upper,119001,Honors Hebrew Lang. & Lit. 11
+Upper,119002,Accel. Hebrew Lang. & Lit. 11
+Upper,119003,Hebrew Language & Lit. 11
+Upper,119014,Conversational Hebrew 11
+Upper,109001,Honors Hebrew Lang. & Lit. 10
+Upper,109002,Accel. Hebrew Lang. & Lit 10
+Upper,109003,Hebrew Language & Lit. 10
+Upper,109014,Conversational Hebrew 10
+Upper,099001,Honors Hebrew Lang. & Lit. 9
+Upper,099002,Accel. Hebrew Lang. & Lit. 9
+Upper,099003,Hebrew Language & Lit. 9
+Upper,129033,Israeli Film 12
+Upper,118013,Jewish Law and Thought 11
+Upper,098013,Jewish Law and Thought 9
+Upper,128025,Zionism: The Miracle of Israel 12
+Upper,128029,Inspiration 12
+Upper,128032,Campus Life & Halakhic Life 12
+Upper,128036,Jewish Philosophy 12
+Upper,128037,Honors Modern Jewish Thought 12
+Upper,128052,Response to Enlightenment 12
+Upper,128623,Jewish Activism 101 12
+Upper,108013,Jewish Law and Thought 10
+Upper,118020,Beit Midrash
+Upper,128056,Halakhik Process
+Upper,127001,Matmidim 12
+Upper,107000,Matmidim
+Upper,117000,Matmidim 11
+Upper,097014,Talmud-Mechina 9
+Upper,107001,Honors Talmud 10
+Upper,107002,Accelerated Talmud 10
+Upper,107013,Talmud 10
+Upper,097001,Honors Talmud 9
+Upper,097002,Accelerated Talmud 9
+Upper,097013,Talmud 9
+Upper,117001,Honors Talmud Seminar 11
+Upper,117012,Accelerated Talmud 11
+Upper,117023,Talmud 11
+Upper,127011,Honors Talmud Seminar 12
+Upper,127020,Accelerated Talmud Seminar 12
+Upper,126011,Honors Tanakh 12
+Upper,126040,Parashat HaShavua 12
+Upper,126524,Shir HaShirim 12
+Upper,126569,"Murder, Death & the Value of Life 12"
+Upper,126963,Bereishit Revisited 12
+Upper,096001,Honors Biblical Studies 9
+Upper,096002,Accelerated Biblical Studies 9
+Upper,096411,Advanced Biblical Studies 9
+Upper,096413,Biblical Studies 9
+Upper,106001,Honors Biblical Studies 10
+Upper,106002,Accelerated Biblical Studies 10
+Upper,106411,Advanced Biblical Studies 10
+Upper,106413,Biblical Studies 10
+Upper,116001,Honors Biblical Studies 11
+Upper,116002,Accelerated Biblical Studies 11
+Upper,116416,Advanced Tanakh 11
+Upper,116417,Tanakh 11
+Upper,096414,Tanakh - Mechina 9
+Upper,IADV11,Israel Advisory 11
+Upper,IADV,Israel Advisory
+Upper,MINCHA,Mincha
+Upper,810000,Lunch 10
+Upper,811000,Lunch 11
+Upper,812000,Lunch 12
+Upper,890000,Lunch 9
+Upper,900000,Tefilla Sefarad
+Upper,909000,Tefilla 9
+Upper,910110,Tefilla 10
+Upper,911000,Tefilla 11
+Upper,912000,Tefilla 12
