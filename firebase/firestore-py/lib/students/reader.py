@@ -21,23 +21,23 @@ def read_periods():
 	periods = defaultdict(list)
 	with open(utils.dir.section_schedule) as file: 
 		for row in csv.DictReader(file): 
-			if row ["SCHOOL_ID"] != "Upper": continue
-			section_id = row ["SECTION_ID"]
-			day = row ["WEEKDAY_NAME"]
-			period_str = row ["BLOCK_NAME"]
-			room = row ["ROOM"]
+			#if row ["SCHOOL_ID"] != "Upper": continue
+			SECTION_ID = row ["SECTION_ID"]
+			DAY = row ["WEEKDAY_NAME"]
+			PERIOD_STR = row ["BLOCK_NAME"]
+			ROOM = row ["ROOM"]
 
 			# Handle homerooms
-			try: period_num = int(period_str)
+			try: period_num = int(PERIOD_STR)
 			except ValueError: 
-				if period_str == "HOMEROOM": 
-					homeroom_locations [section_id] = room
+				if PERIOD_STR == "HOMEROOM": 
+					homeroom_locations [SECTION_ID] = ROOM
 				continue
 
-			periods [section_id].append(data.Period(
-				day = day,
-				room = room, 
-				id = section_id,
+			periods [SECTION_ID].append(data.Period(
+				day = DAY,
+				room = ROOM, 
+				id = SECTION_ID,
 				period = period_num
 			))
 	return periods
@@ -64,6 +64,7 @@ def read_semesters():
 	}
 
 def get_schedules(students, periods, student_courses, semesters): 
+	print(f'starting get scheuldes with {len(students)}, {len(periods)}, {len(student_courses)} and {len(semesters)}')
 	homerooms = {}
 	seniors = set()
 	result = defaultdict(data.DayDefaultDict)
@@ -71,6 +72,7 @@ def get_schedules(students, periods, student_courses, semesters):
 
 	for student, courses in student_courses.items():
 		student = students [student]
+		print("about to start courses loop")
 		for section_id in courses: 
 			if "UADV" in section_id: 
 				homerooms [student] = section_id
@@ -79,6 +81,8 @@ def get_schedules(students, periods, student_courses, semesters):
 
 			try: semester = semesters [section_id]
 			except KeyError as error: 
+				if 'Mincha' in section_id:
+					continue
 				utils.logger.error(f"Section {section_id} was in schedule.csv but not in sections.csv")
 				raise error from None
 
@@ -100,6 +104,7 @@ def get_schedules(students, periods, student_courses, semesters):
 	return result, homerooms, seniors
 
 def set_students_schedules(schedules, homerooms, homeroom_locations): 
+	print("debug test")
 	for student, schedule in schedules.items():
 		if student.id in utils.constants.ignored_students: continue
 		student.homeroom = "SENIOR_HOMEROOM" if student not in homerooms else homerooms [student]

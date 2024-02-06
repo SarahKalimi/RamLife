@@ -4,18 +4,22 @@ from lib.students import reader as student_reader
 from lib import services
 
 from collections import defaultdict
-from firebase_admin import delete_app
+#from firebase_admin import delete_app
 
 if __name__ == '__main__':
 	utils.logger.info("Indexing students...")
 
+
 	student_courses = utils.logger.log_value("student courses", student_reader.read_student_courses)
 	students = utils.logger.log_value("students", student_reader.read_students)
+	print("length of students", len(students))
 	periods = utils.logger.log_value("section periods", student_reader.read_periods)
+	print(len(periods))
 	homeroom_locations = defaultdict(lambda: "Unavailable")
 	utils.logger.debug("Homeroom locations", homeroom_locations)
 	semesters = utils.logger.log_value("semesters", student_reader.read_semesters)
 
+	print("Hi")
 	schedules, homerooms, seniors = utils.logger.log_value(
 		"schedules", lambda: student_reader.get_schedules(
 			students = students,

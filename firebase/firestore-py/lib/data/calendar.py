@@ -45,11 +45,21 @@ class Day:
 	]
 
 	def verify_calendar(month, calendar): 
-		_, days_in_month = calendar_model.monthrange(current_year, month)
+		if month <7:
+			year = current_year + 1
+		else:
+			year = current_year
+		_, days_in_month = calendar_model.monthrange(year, month)
 		days = set(range(1, days_in_month + 1))
 		is_valid = len(calendar) == days_in_month
-		if not is_valid: utils.logger.warning(f"Calendar for {month} is invalid. Missing entries for {days}.")
+		if not is_valid:
+			utils.logger.warning(f"Calendar for {month} is invalid. Missing entries for {days}.")
 		return is_valid
+		##_, days_in_month = calendar_model.monthrange(current_year, month)
+		##days = set(range(1, days_in_month + 1))
+		##is_valid = len(calendar) == days_in_month
+		##if not is_valid: utils.logger.warning(f"Calendar for {month} is invalid. Missing entries for {days}.")
+		##return is_valid
 
 	def raw(date, name, special, month): 
 		year = get_year(month)

@@ -11,10 +11,10 @@ the data indexing
 # Converts a section ID to a course ID.
 def get_course_id(section_id):
   result = section_id[0:section_id.index("-")]
-  if result.startswith("0"):
-    return result[1:]
-  else:
-    return result
+  #if result.startswith("0"):
+   # return result[1:]
+  #else:
+  return result
 
 	# Builds a list of [Section] objects.
 	# 
@@ -28,6 +28,7 @@ def get_course_id(section_id):
 	# in order to keep the data and logic layers separate.
 
 def get_sections(course_names, section_teachers, faculty_names, zoom_links):
+ 
   return [
     Section(
       id = key,
