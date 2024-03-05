@@ -72,7 +72,6 @@ def get_schedules(students, periods, student_courses, semesters):
 
 	for student, courses in student_courses.items():
 		student = students [student]
-		print("about to start courses loop")
 		for section_id in courses: 
 			if "UADV" in section_id: 
 				homerooms [student] = section_id
@@ -81,7 +80,7 @@ def get_schedules(students, periods, student_courses, semesters):
 
 			try: semester = semesters [section_id]
 			except KeyError as error: 
-				if 'Mincha' in section_id:
+				if 'Mincha' in section_id or 'IADV' in section_id:
 					continue
 				utils.logger.error(f"Section {section_id} was in schedule.csv but not in sections.csv")
 				raise error from None

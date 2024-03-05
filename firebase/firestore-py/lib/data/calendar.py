@@ -46,7 +46,7 @@ class Day:
 
 	def verify_calendar(month, calendar): 
 		if month <7:
-			year = current_year + 1
+			year = current_year
 		else:
 			year = current_year
 		_, days_in_month = calendar_model.monthrange(year, month)

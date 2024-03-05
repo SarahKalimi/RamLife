@@ -44,6 +44,7 @@ if __name__ == '__main__':
 		month_calendar = utils.logger.log_value(
 			f"calendar for {month}", lambda: data.get_default_calendar(month)
 		)
+		print(month_calendar)
 		verified = data.Day.verify_calendar(month, month_calendar)
 		assert verified, f"Could not properly parse calendar for {month}"
 		if (utils.args.should_upload): 

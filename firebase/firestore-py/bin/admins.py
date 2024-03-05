@@ -26,6 +26,7 @@ def set_claims(admins):
 if __name__ == '__main__':
 	utils.logger.info("Setting up admins...")
 	admins = utils.logger.log_value("admins", get_admins)
+	print(admins)
 	set_claims(admins)
 	from firebase_admin import delete_app
 	delete_app(firebase.app)
