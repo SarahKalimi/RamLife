@@ -1,11 +1,12 @@
 import csv
 from collections import defaultdict
+from typing import Dict, List
 
 import lib.data as data
 import lib.utils as utils
 
 def read_students(): 
-	with open(utils.dir.students) as file: return {
+	with open("lib/students/students.csv") as file: return {
 		row ["ID"]: data.User(
 			first = row ["First Name"],
 			last = row ["Last Name"],
@@ -26,10 +27,13 @@ def read_periods():
 			DAY = row ["WEEKDAY_NAME"]
 			PERIOD_STR = row ["BLOCK_NAME"]
 			ROOM = row ["ROOM"]
-
+			#convert str to int
+			PERIOD_STR = PERIOD_STR.replace("Period " , "")
+			PERIOD_STR = PERIOD_STR.replace(" (US)" , "")
 			# Handle homerooms
 			try: period_num = int(PERIOD_STR)
 			except ValueError: 
+				print("error", SECTION_ID, PERIOD_STR )
 				if PERIOD_STR == "HOMEROOM": 
 					homeroom_locations [SECTION_ID] = ROOM
 				continue
@@ -42,7 +46,10 @@ def read_periods():
 			))
 	return periods
 
-def read_student_courses(): 
+def read_student_courses() -> Dict[str, List[str]]: 
+	"""
+	goes thru students and if they arent corrupt then it returns each students courses 
+	"""
 	courses = defaultdict(list)
 	with open(utils.dir.schedule) as file: 
 		for row in csv.DictReader(file): 
@@ -52,16 +59,13 @@ def read_student_courses():
 			courses [student].append(row ["SECTION_ID"])
 	return courses
 
-def read_semesters(): 
-	with open(utils.dir.section) as file: return {
-		row ["SECTION_ID"]: data.Semesters(
-			semester1 = row ["TERM1"] == "Y",
-			semester2 = row ["TERM2"] == "Y",
-			section_id = row ["SECTION_ID"],
-		)
-		for row in csv.DictReader(file)
-		if row ["SCHOOL_ID"] == "Upper"
-	}
+def read_semesters() -> List[str]:
+	results = []
+	with open(utils.dir.section) as file:
+		for row in csv.DictReader(file):
+			if row['SCHOOL_ID'] == 'Upper':
+				results.append(row["SECTION_ID"])
+	return results
 
 def get_schedules(students, periods, student_courses, semesters): 
 	print(f'starting get scheuldes with {len(students)}, {len(periods)}, {len(student_courses)} and {len(semesters)}')
@@ -78,22 +82,25 @@ def get_schedules(students, periods, student_courses, semesters):
 				continue
 			# if section_id in utils.constants.ignored_sections: continue
 
+			"""
 			try: semester = semesters [section_id]
 			except KeyError as error: 
 				if 'Mincha' in section_id or 'IADV' in section_id:
 					continue
 				utils.logger.error(f"Section {section_id} was in schedule.csv but not in sections.csv")
 				raise error from None
+			"""
 
-			if (semester is not None and not (semester.semester1 if utils.constants.is_semester1 else semester.semester2)): 
-				continue
-			elif section_id.startswith("12"): seniors.add(student)
+			# if the class is not this semester
+			#if (semester is not None and not (semester.semester1 if utils.constants.is_semester1 else semester.semester2)): 
+			#	continue
+			#elif section_id.startswith("12"): seniors.add(student)
 
 			if section_id not in periods:  # in schedule.csv but not section_schedule.csv
 				ignored.add(section_id)
 				continue
 
-			for period in periods [section_id]: 
+			for period in periods [section_id]: # for period in list(periods) 
 				result [student] [period.day] [period.period - 1] = period
 
 	for schedule in result.values(): schedule.populate(utils.constants.day_names)
@@ -103,7 +110,7 @@ def get_schedules(students, periods, student_courses, semesters):
 	return result, homerooms, seniors
 
 def set_students_schedules(schedules, homerooms, homeroom_locations): 
-	print("debug test")
+	#print("debug test")
 	for student, schedule in schedules.items():
 		if student.id in utils.constants.ignored_students: continue
 		student.homeroom = "SENIOR_HOMEROOM" if student not in homerooms else homerooms [student]

@@ -1,13 +1,13 @@
-class Semesters: 
-	def __init__(self, semester1, semester2, section_id): 
-		self.semester1 = semester1
-		self.semester2 = semester2
+"""class Semesters: 
+	def __init__(self, section_id): 
 		self.section_id = section_id
-		assert semester1 is not None and semester2 is not None, f"Could not read semester data for {section_id}"
 
-	def __str__(self): return f"Semesters({self.semester1}, {self.semester2})"
-	def __repr__(self): return f"Semesters({int(self.semester1)}, {int(self.semester2)})"
+	def __str__(self):
+		return f"Semesters({self.section_id})"
 
+	def __repr__(self):
+		return f"Semesters({int(self.semester1)}, {int(self.semester2)})"
+"""
 class Section: 
 	def __init__(self, name, id, teacher, zoom_link): 
 		self.name = name

@@ -50,7 +50,7 @@ class User:
 		return user
 
 	def __repr__(self):
-		return f"{self.first} {self.last} ({self.id})"
+		return f"{self.first} {self.last} ({self.id}) -- {self.schedule}"
 
 	def has_no_classes(self):
 		return all(
